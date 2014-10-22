@@ -3,4 +3,4 @@ from django import http
 
 # Create your views here.
 def home(request):
-	return http.HttpResponse('Works')
+	return http.HttpResponse('Works!')
