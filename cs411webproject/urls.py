@@ -8,4 +8,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'cs411app.views.home'),
+    url(r'^login/$', 'cs411app.views.user_login', name='login'),
+    url(r'^register/$', 'cs411app.views.register', name='register'),
+
 )
